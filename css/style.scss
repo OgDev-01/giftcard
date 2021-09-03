@@ -229,10 +229,12 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        opacity: 0.6;
       }
     }
     .real-active {
       border-bottom: 3px solid rgba(255, 0, 0, 0.719);
+      opacity: 1;
     }
   }
 }

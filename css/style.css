@@ -268,10 +268,12 @@ header .link-icon i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  opacity: 0.6;
 }
 
 .tab ul .real-active {
   border-bottom: 3px solid rgba(255, 0, 0, 0.719);
+  opacity: 1;
 }
 
 .search {
