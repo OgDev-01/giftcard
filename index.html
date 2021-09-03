@@ -21,16 +21,16 @@
                 <a class="navbar-brand" href="#">Excellent Gift Cards</a>
             </div>
             <div class="nav-links">
-                <li class="nav-item">
-                    <a class="nav-link " href="#"><i class="fas fa-th"></i> Dashboard</a>
+                <li class="nav-item n-tab">
+                    <a class="nav-link active " href="#"><i class="fas fa-th"></i> Dashboard</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item n-tab">
                     <a class="nav-link" href="#"><i class="fas fa-chart-line"></i> Transactions</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item n-tab">
                     <a class="nav-link" href="#"><i class="fas fa-university"></i> Bank Info</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item n-tab">
                     <a class="nav-link " href="#" aria-disabled="true"><i class="fas fa-user"></i> Profile</a>
                 </li>
 
@@ -40,152 +40,220 @@
             </div>
         </ul>
 
+        <div class="wrap">
 
-        <div class="dashboard">
-            <header>
-                <div class="title">
-                    <h2>Dashboard</h2>
-                </div>
-                <div class="link-icon">
-                    <a href="#" class="notif"><i class="fas fa-bell"></i></a>
-                    <a href="#" class="p-img"></a>
-                </div>
-            </header>
-            <div class="main">
-                <div class="greetings">
-                    <figure>Good morning, <br> <span>Casman</span></figure>
-                </div>
-                <div class="trade-now">
-                    <p>Trade now</p>
-                </div>
-                <div class="card-grid">
-                    <div class="card">
-                        <div class="card-head"></div>
-                        <div class="card-body"></div>
+            <div class="dashboard tab-content active">
+                <header>
+                    <div class="title">
+                        <h2>Dashboard</h2>
                     </div>
-                    <div class="card">
-                        <div class="card-head"></div>
-                        <div class="card-body"></div>
+                    <div class="link-icon">
+                        <a href="#" class="notif"><i class="fas fa-bell"></i></a>
+                        <a href="#" class="p-img"></a>
                     </div>
+                </header>
+                <div class="main">
+                    <div class="greetings">
+                        <figure>Good morning, <br> <span>Casman</span></figure>
+                    </div>
+                    <div class="trade-now">
+                        <p>Trade now</p>
+                    </div>
+                    <div class="card-grid">
+                        <div class="card">
+                            <div class="card-head"></div>
+                            <div class="card-body"></div>
+                        </div>
+                        <div class="card">
+                            <div class="card-head"></div>
+                            <div class="card-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Copyright &copy 2021 Excellent Giftcards</p>
                 </div>
             </div>
-            <div class="footer">
-                <p>Copyright &copy 2021 Excellent Giftcards</p>
+
+            <!-- Transaction table  section-->
+
+            <div class="transaction tab-content ">
+                <header>
+                    <div class="title">
+                        <h2>Transactions</h2>
+                    </div>
+                    <div class="link-icon">
+                        <a href="#" class="notif"><i class="fas fa-bell"></i></a>
+                        <a href="#" class="p-img"></a>
+                    </div>
+                </header>
+
+                <div class="body">
+                    <div class="tab">
+                        <ul class="table-tab">
+                            <li><a href="#" class="t-tab real-active ">Giftcard History</a></li>
+                            <li><a href="#" class="t-tab">Bitcoin History</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="search">
+                        <form class="search-form">
+                            <input type="text">
+                        </form>
+                    </div>
+
+                    <div class="table t-content real-active">
+                        <div class="th">
+                            <h4>TXN ID</h4>
+                            <h4>Giftcard Type</h4>
+                            <h4>Giftcard Name</h4>
+                            <h4>Date</h4>
+                            <h4>Amount in Naira</h4>
+                            <h4>Status</h4>
+                            <h4></h4>
+                        </div>
+                        <div class="tbody">
+                            <p>A4081</p>
+                            <p>Physical (Cash Receipt)</p>
+                            <p>Amazon</p>
+                            <p>08/25/2021</p>
+                            <p>₦5,000</p>
+                            <p>Pending</p>
+                            <p><button>view</button></p>
+                        </div>
+                        <div class="tbody">
+                            <p>A4081</p>
+                            <p>Physical (Cash Receipt)</p>
+                            <p>Amazon</p>
+                            <p>08/25/2021</p>
+                            <p>₦5,000</p>
+                            <p>Pending</p>
+                            <p><button>view</button></p>
+                        </div>
+                        <div class="tbody">
+                            <p>A4081</p>
+                            <p>Physical (Cash Receipt)</p>
+                            <p>Amazon</p>
+                            <p>08/25/2021</p>
+                            <p>₦5,000</p>
+                            <p>Pending</p>
+                            <p><button>view</button></p>
+                        </div>
+
+
+                    </div>
+                    <div class="table t-content">
+                        <div class="th">
+                            <h4>TXN ID</h4>
+                            <h4>Giftcard Type</h4>
+                            <h4>Giftcard Name</h4>
+                            <h4>Date</h4>
+                            <h4>Amount in Naira</h4>
+                            <h4>Status</h4>
+                            <h4></h4>
+                        </div>
+                        <div class="tbody">
+                            <p>A4081</p>
+                            <p>Physical (Cash Receipt)</p>
+                            <p>Amazon</p>
+                            <p>08/25/2021</p>
+                            <p>₦5,000</p>
+                            <p>Pending</p>
+                            <p><button>view</button></p>
+                        </div>
+                        <div class="tbody">
+                            <p>A4081</p>
+                            <p>Physical (Cash Receipt)</p>
+                            <p>Amazon</p>
+                            <p>08/25/2021</p>
+                            <p>₦5,000</p>
+                            <p>Pending</p>
+                            <p><button>view</button></p>
+                        </div>
+                        <div class="tbody">
+                            <p>A4081</p>
+                            <p>Physical (Cash Receipt)</p>
+                            <p>Amazon</p>
+                            <p>08/25/2021</p>
+                            <p>₦5,000</p>
+                            <p>Pending</p>
+                            <p><button>view</button></p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Copyright &copy 2021 Excellent Giftcards</p>
+                </div>
             </div>
-        </div>
 
-        <!-- Transaction table  section-->
-
-        <div class="transaction">
-            <header>
-                <div class="title">
-                    <h2>Transactions</h2>
-                </div>
-                <div class="link-icon">
-                    <a href="#" class="notif"><i class="fas fa-bell"></i></a>
-                    <a href="#" class="p-img"></a>
-                </div>
-            </header>
-
-            <div class="body">
-                <div class="tab">
-                    <ul>
-                        <li><a href="">Giftcard History</a></li>
-                        <li><a href="">Bitcoin History</a></li>
-                    </ul>
-                </div>
-
-                <div class="search">
-                    <form class="search-form">
-                        <input type="text">
-                    </form>
-                </div>
-
-                <div class="table">
-                    <div class="th">
-                        <h4>TXN ID</h4>
-                        <h4>Giftcard Type</h4>
-                        <h4>Giftcard Name</h4>
-                        <h4>Date</h4>
-                        <h4>Amount in Naira</h4>
-                        <h4>Status</h4>
-                        <h4></h4>
+            <!-- bank section -->
+            <div class="dashboard tab-content ">
+                <header>
+                    <div class="title">
+                        <h2>Bank Info</h2>
                     </div>
-                    <div class="tbody">
-                        <p>A4081</p>
-                        <p>Physical (Cash Receipt)</p>
-                        <p>Amazon</p>
-                        <p>08/25/2021</p>
-                        <p>₦5,000</p>
-                        <p>Pending</p>
-                        <p><button>view</button></p>
+                    <div class="link-icon">
+                        <a href="#" class="notif"><i class="fas fa-bell"></i></a>
+                        <a href="#" class="p-img"></a>
                     </div>
-                    <div class="tbody">
-                        <p>A4081</p>
-                        <p>Physical (Cash Receipt)</p>
-                        <p>Amazon</p>
-                        <p>08/25/2021</p>
-                        <p>₦5,000</p>
-                        <p>Pending</p>
-                        <p><button>view</button></p>
+                </header>
+                <div class="main">
+                    <div class="greetings">
+                        <figure>Good morning, <br> <span>Casman</span></figure>
                     </div>
-                    <div class="tbody">
-                        <p>A4081</p>
-                        <p>Physical (Cash Receipt)</p>
-                        <p>Amazon</p>
-                        <p>08/25/2021</p>
-                        <p>₦5,000</p>
-                        <p>Pending</p>
-                        <p><button>view</button></p>
+                    <div class="trade-now">
+                        <p>Trade now</p>
                     </div>
-
-
+                    <div class="card-grid">
+                        <div class="card">
+                            <div class="card-head"></div>
+                            <div class="card-body"></div>
+                        </div>
+                        <div class="card">
+                            <div class="card-head"></div>
+                            <div class="card-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p>Copyright &copy 2021 Excellent Giftcards</p>
                 </div>
             </div>
-            <div class="footer">
-                <p>Copyright &copy 2021 Excellent Giftcards</p>
-            </div>
-        </div>
 
-        <!-- bank section -->
-        <div class="dashboard">
-            <header>
-                <div class="title">
-                    <h2>Bank Info</h2>
-                </div>
-                <div class="link-icon">
-                    <a href="#" class="notif"><i class="fas fa-bell"></i></a>
-                    <a href="#" class="p-img"></a>
-                </div>
-            </header>
-            <div class="main">
-                <div class="greetings">
-                    <figure>Good morning, <br> <span>Casman</span></figure>
-                </div>
-                <div class="trade-now">
-                    <p>Trade now</p>
-                </div>
-                <div class="card-grid">
-                    <div class="card">
-                        <div class="card-head"></div>
-                        <div class="card-body"></div>
+            <div class=" dashboard profile tab-content">
+                <header>
+                    <div class="title">
+                        <h2>Bank Info</h2>
                     </div>
-                    <div class="card">
-                        <div class="card-head"></div>
-                        <div class="card-body"></div>
+                    <div class="link-icon">
+                        <a href="#" class="notif"><i class="fas fa-bell"></i></a>
+                        <a href="#" class="p-img"></a>
+                    </div>
+                </header>
+
+                <div class="body">
+                    <div class="profile-head">
+                        <div class="m">
+                            <div class="m-head">My Profile</div>
+                            <div class="m-img"></div>
+                        </div>
+
+                        <div class="upload-btn-wrapper">
+                            <button class="btn">Choose file</button>
+                            <input type="file" name="myfile" />
+                        </div>
+
                     </div>
                 </div>
-            </div>
-            <div class="footer">
-                <p>Copyright &copy 2021 Excellent Giftcards</p>
             </div>
         </div>
     </div>
 
+    <!-- profile page  -->
 
-
-    <!-- JavaScript Bundle with Popper Bootstrap -->
-
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
